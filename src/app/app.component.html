@@ -1,0 +1,25 @@
+<!-- Toolbar -->
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>Prueba front - Alejandro Rodríguez</span>
+    <span class="example-spacer"></span>
+    <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">verified_user</mat-icon>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<!-- Main content -->
+<mat-card class="example-card">
+  <mat-card-subtitle>Nested menu</mat-card-subtitle>
+  <mat-card-title></mat-card-title>
+  <mat-card-content>
+
+    <p>Hacer click en el botón para probar el menú anidado:</p>
+
+    <app-nested-menu
+      [items]="menuItems">
+    </app-nested-menu>
+
+  </mat-card-content>
+</mat-card>
+
+<router-outlet></router-outlet>
