@@ -9,4 +9,4 @@ Proyecto generado con:
 
 - Ejecutar git clone https://github.com/arodriguezsgithub/nested-menu-test.git
 - Ejecutar npm install
-- Ejecutar ng serve. Navigate to `http://localhost:4200/`.
+- Ejecutar ng serve. Navegar a `http://localhost:4200/`.
